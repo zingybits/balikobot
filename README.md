@@ -1,0 +1,2 @@
+# balikobot
+Balikobot - Magento integration
