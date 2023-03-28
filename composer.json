@@ -5,16 +5,16 @@
     "license": "GPL-3.0",
     "repositories": [
         {
-            "url": "https://github.com/zingybits/module-balikobot-core",
-            "type": "vcs"
+            "url": "https://github.com/zingybits/module-balikobot-core.git",
+            "type": "git"
         },
         {
-            "url": "https://github.com/zingybits/module-balikobot-admin-ui",
-            "type": "vcs"
+            "url": "https://github.com/zingybits/module-balikobot-admin-ui.git",
+            "type": "git"
         },
         {
-            "url": "https://github.com/zingybits/coduo-core-m2-module",
-            "type": "vcs"
+            "url": "https://github.com/zingybits/coduo-core-m2-module.git",
+            "type": "git"
         }
     ],
     "require": {
