@@ -3,7 +3,6 @@
     "description": "Balikobot integration for Magento 2 - metapackage",
     "type": "metapackage",
     "license": "GPL-3.0",
-    "version": "1.0.0", 
     "repositories": [
         {
             "url": "https://github.com/zingybits/module-balikobot-core",
@@ -19,8 +18,8 @@
         }
     ],
     "require": {
-        "zingybits/module-balikobot-core": "1.0.1",
-        "zingybits/module-balikobot-admin-ui": "1.0.1",
-        "coduo/magento2-core": "1.1.12"
+        "zingybits/module-balikobot-core": "*",
+        "zingybits/module-balikobot-admin-ui": "*",
+        "coduo/magento2-core": "*"
     }
 }
