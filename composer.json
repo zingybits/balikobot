@@ -7,19 +7,9 @@
         {
             "url": "https://github.com/zingybits/module-balikobot-core.git",
             "type": "git"
-        },
-        {
-            "url": "https://github.com/zingybits/module-balikobot-admin-ui.git",
-            "type": "git"
-        },
-        {
-            "url": "https://github.com/zingybits/coduo-core-m2-module.git",
-            "type": "git"
         }
     ],
     "require": {
         "zingybits/module-balikobot-core": "1.0.0",
-        "zingybits/module-balikobot-admin-ui": "1.0.0",
-        "coduo/magento2-core": "1.1.12"
     }
 }
