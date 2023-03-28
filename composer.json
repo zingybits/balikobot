@@ -10,6 +10,6 @@
         }
     ],
     "require": {
-        "zingybits/module-balikobot-core": "1.0.0",
+        "zingybits/module-balikobot-core": "1.0.0"
     }
 }
