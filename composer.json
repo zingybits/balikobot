@@ -1,5 +1,5 @@
 {
     "name": "zingybits/balikobot",
     "description": "Balikobot integration for Magento 2 - metapackage",
-    "type": "metapackage",
+    "type": "metapackage"
 }
