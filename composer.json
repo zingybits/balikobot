@@ -7,7 +7,7 @@
     }
     "repositories": [
         {
-            "url": "https://github.com/zingybits/module-balikobot-core",
+            "url": "https://github.com/zingybits",
             "type": "vcs"
         }
     ],
