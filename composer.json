@@ -2,24 +2,24 @@
     "name": "zingybits/balikobot",
     "description": "Balikobot integration for Magento 2 - metapackage",
     "type": "metapackage",
-    "license": "GPL-3.0",
     "version": "2.0.5",
     "repositories": [
         {
-            "type": "package",
-            "package": {
-                "name": "zingybits/module-balikobot-core",
-                "version": "1.0.1",
-                "type": "magento2-module",
-                "source": {
-                    "url": "https://github.com/zingybits/module-balikobot-core.git",
-                    "type": "git",
-                    "reference": "master"
-                }
-            }
+            "url": "https://github.com/zingybits/module-balikobot-core.git",
+            "type": "vcs"
+        },
+        {
+            "url": "https://github.com/zingybits/module-balikobot-admin-ui.git",
+            "type": "vcs"
+        },
+        {
+            "url": "https://github.com/zingybits/coduo-core-m2-module.git",
+            "type": "vcs"
         }
     ],
     "require": {
-        "zingybits/module-balikobot-core": "^1"
+        "zingybits/module-balikobot-core": "1.0.1",
+        "zingybits/module-balikobot-admin-ui": "1.0.1",
+        "coduo/magento2-core": "1.1.12"
     }
 }
