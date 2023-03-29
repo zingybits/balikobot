@@ -1,33 +1,31 @@
 {
     "name": "zingybits/balikobot-module",
     "type": "metapackage",
-    "description": "This is a metapackage shipping sentry/sentry with Symfony HTTP client.",
-    "keywords": [
-        "sentry",
-        "log",
-        "logging",
-        "error-monitoring",
-        "error-handler",
-        "crash-reporting",
-        "crash-reports"
-    ],
-    "homepage": "https://pugx.org",
+    "description": "Balikobot integration for Magento 2 - metapackage",
     "license": "MIT",
     "authors": [
         {
-            "name": "PUGX community",
-            "homepage": "https://github.com/pugx"
+            "name": "Zingy Bits",
+            "homepage": "https://github.com/zingybits"
+        }
+    ],
+    "repositories": [
+        {
+            "url": "https://github.com/zingybits/module-balikobot-core.git",
+            "type": "vcs"
+        },
+        {
+            "url": "https://github.com/zingybits/module-balikobot-admin-ui.git",
+            "type": "vcs"
+        },
+        {
+            "url": "https://github.com/zingybits/coduo-core-m2-module.git",
+            "type": "vcs"
         }
     ],
     "require": {
-        "nyholm/psr7": "^1.3",
-        "sentry/sentry": "^3.0",
-        "symfony/http-client": "^4.4 || ^5.0"
-    },
-    "replace": {
-        "sentry/sdk": "3.*"
-    },
-    "config": {
-        "sort-packages": true
+        "zingybits/module-balikobot-core": "1.0.1",
+        "zingybits/module-balikobot-admin-ui": "1.0.1",
+        "coduo/magento2-core": "1.1.12"
     }
 }
