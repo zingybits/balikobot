@@ -1,8 +1,9 @@
 {
-    "name": "zingybits/balikobot-module",
+    "name": "zingybits/balikobot",
     "type": "metapackage",
     "description": "Balikobot integration for Magento 2 - metapackage",
     "license": "MIT",
+    "version": "1.0.0"
     "authors": [
         {
             "name": "Zingy Bits",
