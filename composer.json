@@ -2,7 +2,4 @@
     "name": "zingybits/balikobot",
     "description": "Balikobot integration for Magento 2 - metapackage",
     "type": "metapackage",
-    "require": {
-        "zingybits/module-balikobot-core": "1.0.1"
-    }
 }
