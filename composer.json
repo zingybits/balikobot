@@ -2,6 +2,7 @@
     "name": "zingybits/balikobot",
     "description": "Balikobot integration for Magento 2 - metapackage",
     "type": "metapackage",
+    "minimum-stability": "dev",
     "repositories": [
         {
             "url": "https://github.com/zingybits/module-balikobot-core.git",
