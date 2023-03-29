@@ -24,8 +24,8 @@
         }
     ],
     "require": {
-        "zingybits/module-balikobot-core": "1.0.1",
-        "zingybits/module-balikobot-admin-ui": "1.0.1",
-        "coduo/magento2-core": "1.1.12"
+        "zingybits/module-balikobot-core": "1^",
+        "zingybits/module-balikobot-admin-ui": "1^",
+        "coduo/magento2-core": "1^"
     }
 }
