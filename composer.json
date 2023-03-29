@@ -2,14 +2,13 @@
     "name": "zingybits/balikobot",
     "description": "Balikobot integration for Magento 2 - metapackage",
     "type": "metapackage",
-    "minimum-stability": "dev",
+    "require": {
+        "zingybits/module-balikobot-core": "1.0.1"
+    }
     "repositories": [
         {
-            "url": "https://github.com/zingybits/module-balikobot-core.git",
+            "url": "https://github.com/zingybits/module-balikobot-core",
             "type": "vcs"
         }
     ],
-    "require-dev": {
-        "zingybits/module-balikobot-core": "1.0.1"
-    }
 }
