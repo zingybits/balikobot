@@ -9,23 +9,23 @@
             "homepage": "https://github.com/zingybits"
         }
     ],
+    "require": {
+        "zingybits/module-balikobot-core": "^1.0.0",
+        "zingybits/module-balikobot-admin-ui": "^1.0.0",
+        "coduo/magento2-core": "^1.1.12"
+    },
     "repositories": [
         {
-            "url": "https://github.com/zingybits/module-balikobot-core",
+            "url": "https://github.com/zingybits/module-balikobot-core.git",
             "type": "vcs"
         },
         {
-            "url": "https://github.com/zingybits/module-balikobot-admin-ui",
+            "url": "https://github.com/zingybits/module-balikobot-admin-ui.git",
             "type": "vcs"
         },
         {
-            "url": "https://github.com/zingybits/coduo-core-m2-module",
+            "url": "https://github.com/zingybits/coduo-core-m2-module.git",
             "type": "vcs"
         }
-    ],
-    "require": {
-        "zingybits/module-balikobot-core": "1.0.0",
-        "zingybits/module-balikobot-admin-ui": "1.0.0",
-        "coduo/magento2-core": "1.1.12"
-    }
+    ]
 }
