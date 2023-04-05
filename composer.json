@@ -13,19 +13,5 @@
         "zingybits/module-balikobot-core": "*",
         "zingybits/module-balikobot-admin-ui": "*",
         "coduo/magento2-core": "*"
-    },
-    "repositories": [
-        {
-            "url": "https://github.com/zingybits/module-balikobot-core.git",
-            "type": "vcs"
-        },
-        {
-            "url": "https://github.com/zingybits/module-balikobot-admin-ui.git",
-            "type": "vcs"
-        },
-        {
-            "url": "https://github.com/zingybits/coduo-core-m2-module.git",
-            "type": "vcs"
-        }
-    ]
+    }
 }
